@@ -9,7 +9,7 @@
         <md-card-actions>
 
             {{$ctrl.progress.status}}
-            <md-slider flex="100" step="50" min="0" max="100" ng-model="$ctrl.sbVal.progress" flex md-discrete>
+            <md-slider flex="100" ng-change="$ctrl.convertProgress($ctrl.sbVal.progress)" step="50" min="0" max="100" ng-model="$ctrl.sbVal.progress" flex md-discrete>
 
             </md-slider>
 

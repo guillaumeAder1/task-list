@@ -19,11 +19,11 @@ class ActivityController {
    * @return {undefined} undefined
    */
   convertProgress(val) {
-    return this.progressValues.filter(e => e.val === val)[0]
+    this.progress = this.progressValues.filter(e => e.val === val)[0]
   }
   $onInit() {
     console.log('input bindings are defined!', this.sbVal);
-    this.progress = this.convertProgress(this.sbVal.progress);
+    this.convertProgress(this.sbVal.progress);
     console.log(this.sbVal.progress)
 
   }
