@@ -1,0 +1,27 @@
+<div flex-xs flex-gt-xs="100px" layout="column">
+    <md-card style="height: 200px;" md-theme="{{ showDarkTheme ? 'dark-grey' : 'default' }}" md-theme-watch>
+        <md-card-title>
+            <md-card-title-text>
+                <span class="md-body-2" style="color:#{{$ctrl.sbVal.color}}; font-weight:bold;">{{$ctrl.sbVal.name}}</span>
+            </md-card-title-text>
+        </md-card-title>
+
+        <md-card-actions>
+
+            {{$ctrl.progress}}
+            <md-slider flex="100" step="50" min="0" max="100" ng-model="$ctrl.convertProgress($ctrl.sbVal.progress).val" aria-label="Disabled 1" flex md-discrete>
+
+            </md-slider>
+
+        </md-card-actions>
+
+        <md-card-actions layout="row" layout-align="end center">
+            <!-- <md-slider-container flex="100" ng-disabled="isDisabled">
+                <md-input-container>
+                    <input flex type="number" ng-model="disabled1" aria-label="green" aria-controls="green-slider">
+                </md-input-container>
+            </md-slider-container> -->
+            <md-button flex='100'>Action 1</md-button>
+        </md-card-actions>
+    </md-card>
+</div>

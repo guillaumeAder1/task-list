@@ -5,11 +5,12 @@ require('angular-aria');
 require('angular-messages');
 require('angular-material');
 
-import {processMatrixComponent} from './sb-process-matrix/process_matrix.js';
-import {DeliverablesService} from './common/deliverables.service.js';
+import { processMatrixComponent } from './sb-process-matrix/process_matrix.js';
+import { activityComponent } from './sb-activity/activity.js';
+import { DeliverablesService } from './common/deliverables.service.js';
 
 class IndexController {
-  constructor (sbDeliverables) {
+  constructor(sbDeliverables) {
 
     // dependencies
     this.sbDeliverables = sbDeliverables;
@@ -17,16 +18,19 @@ class IndexController {
     // properties of vm
     this.deliverables = [];
 
+    this.toto = 'toto'
+
     // init call
     this.sbDeliverables
-        .fetchAll()
-        .then( deliverables => this.deliverables = deliverables);
+      .fetchAll()
+      .then(deliverables => this.deliverables = deliverables);
   }
 }
 IndexController.$inject = ['sbDeliverables'];
 
 angular
-    .module('theWholeApp', ['ngMaterial'])
-    .factory('sbDeliverables', DeliverablesService)
-    .component('sbProcessMatrix', processMatrixComponent)
-    .controller('IndexController', IndexController);
+  .module('theWholeApp', ['ngMaterial'])
+  .factory('sbDeliverables', DeliverablesService)
+  .controller('IndexController', IndexController)
+  .component('sbProcessMatrix', processMatrixComponent)
+  .component('sbActivityComponent', activityComponent)
