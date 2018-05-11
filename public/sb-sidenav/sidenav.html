@@ -16,13 +16,12 @@
                 <p>
                     Change the task ordering settings
                 </p>
-
                 <md-select ng-model="selectedFilter" ng-change="$ctrl.updateFilter({selected:this.selectedFilter})">
                     <md-option ng-value="option.val" ng-repeat="option in $ctrl.filters">{{ option.val }}</md-option>
                 </md-select>
                 <br/>
 
-
+                <!--  -->
                 <form>
                     <md-input-container>
                         <label for="testInput">Search by name</label>
@@ -30,7 +29,17 @@
                     </md-input-container>
                 </form>
                 <br/>
-                <md-divider ng-if="!$last"></md-divider>
+                <!--  -->
+                <p>
+                    Sort by task status
+                </p>
+
+                <md-select ng-model="selectedStatus" ng-change="$ctrl.updateStatusFilter(this.selectedStatus)">
+                    <md-option ng-value="option.field" ng-repeat="option in $ctrl.status">{{ option.field }}</md-option>
+                </md-select>
+                <br/>
+
+                <!--  -->
                 <md-button ng-click="$ctrl.toggleLeft()" class="md-primary">
                     Close
                 </md-button>

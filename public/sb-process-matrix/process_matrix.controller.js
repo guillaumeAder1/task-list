@@ -1,3 +1,4 @@
+import { statusList } from '../sb-sidenav/sidenav.controller'
 /**
  * Main component controller
  */
@@ -7,6 +8,7 @@ class ProcessMatrixController {
     console.log('ProcessMatrixController');
     this.filter = 'Step'
     this.searchValue = ""
+    this.status = '50'
   }
 
   updateOrder(e) {
@@ -15,6 +17,10 @@ class ProcessMatrixController {
 
   updateFilter(e) {
     this.searchValue = e.str
+  }
+
+  updateStatus(e) {
+    this.status = statusList.filter(d => d.field == e)[0].val
   }
   /**
    * input bindings are ready
