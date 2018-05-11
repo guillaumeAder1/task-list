@@ -3,16 +3,19 @@
  */
 class ProcessMatrixController {
 
-  constructor () {
+  constructor() {
     console.log('ProcessMatrixController');
   }
 
+  updateFilter(e) {
+    console.log('update filter', e)
+  }
   /**
    * input bindings are ready
    *
    * @return {undefined} undefined
    */
-  $onInit () {
+  $onInit() {
     console.log('input bindings are defined!', this.sbModel);
   }
 }

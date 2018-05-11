@@ -4,7 +4,6 @@
 class ActivityController {
 
   constructor() {
-    console.log('Activity', this.sbVal);
     this.progress = 0;
     this.progressValues = [
       { val: 0, status: 'todo' },
@@ -22,9 +21,8 @@ class ActivityController {
     this.progress = this.progressValues.filter(e => e.val === val)[0]
   }
   $onInit() {
-    console.log('input bindings are defined!', this.sbVal);
+    console.log('input bindings are defined!');
     this.convertProgress(this.sbVal.progress);
-    console.log(this.sbVal.progress)
 
   }
 }

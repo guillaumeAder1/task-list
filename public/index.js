@@ -7,6 +7,7 @@ require('angular-material');
 
 import { processMatrixComponent } from './sb-process-matrix/process_matrix.js';
 import { activityComponent } from './sb-activity/activity.js';
+import { sidenavComponent } from './sb-sidenav/sidenav.js';
 import { DeliverablesService } from './common/deliverables.service.js';
 
 class IndexController {
@@ -18,7 +19,8 @@ class IndexController {
     // properties of vm
     this.deliverables = [];
 
-    this.toto = 'toto'
+    // filter type
+    this.filter = false;
 
     // init call
     this.sbDeliverables
@@ -33,4 +35,5 @@ angular
   .factory('sbDeliverables', DeliverablesService)
   .controller('IndexController', IndexController)
   .component('sbProcessMatrix', processMatrixComponent)
+  .component('sbSidenavComponent', sidenavComponent)
   .component('sbActivityComponent', activityComponent)

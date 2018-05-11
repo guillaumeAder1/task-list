@@ -1,0 +1,36 @@
+<md-button ng-click="$ctrl.toggleLeft()" class="md-raised">
+    Settings
+</md-button>
+
+<div layout="column" ng-cloak>
+
+    <section layout="row" flex>
+
+        <md-sidenav style="position:fixed;" class="md-sidenav-left" md-component-id="left" md-disable-backdrop md-whiteframe="4">
+
+            <md-toolbar class="md-theme-indigo">
+                <h1 class="md-toolbar-tools">Settings</h1>
+            </md-toolbar>
+
+            <md-content layout-margin>
+                <p>
+                    Change the Task ordering settings
+                </p>
+
+                <md-select ng-model="selectedFilter" ng-change="$ctrl.updateFilter(this.selectedFilter)">
+                    <md-option ng-value="option.val" ng-repeat="option in $ctrl.filters">{{ option.val }}</md-option>
+                </md-select>
+                <md-divider ng-if="!$last"></md-divider>
+                <md-button ng-click="$ctrl.toggleLeft()" class="md-accent">
+                    Close
+                </md-button>
+            </md-content>
+
+        </md-sidenav>
+
+
+
+    </section>
+
+
+</div>

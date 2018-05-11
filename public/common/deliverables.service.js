@@ -207,265 +207,265 @@ var dummyData = [
             "section B"
         ]
     }
-    // ,
-    // {
-    //     "id": "1186b43b-1c8e-45d7-e1d8-fc8a6abe0884",
-    //     "name": "German Apparel 2",
-    //     "code": "S 1.5",
-    //     "description": "Shop",
-    //     "utcDate": 1413496800000,
-    //     "category": "ROOM",
-    //     "activities": [
-    //         {
-    //             "id": "3f279f76-fd81-4b44-b5e8-f908a9ada2ea",
-    //             "name": "Connectors Up installed",
-    //             "utcStart": 1413496800000,
-    //             "utcEnd": 1413496800000,
-    //             "progress": 0,
-    //             "step": 5,
-    //             "color": "3B3EAC"
-    //         },
-    //         {
-    //             "id": "83688ffd-1ca2-4cc1-e672-b1f414de9619",
-    //             "name": "Slings Down installed",
-    //             "utcStart": 1413496800000,
-    //             "utcEnd": 1413496800000,
-    //             "progress": 0,
-    //             "step": 6,
-    //             "color": "994499"
-    //         },
-    //         {
-    //             "id": "869d780e-27b0-4044-9e03-906e660ad962",
-    //             "name": "ready for assembly",
-    //             "utcStart": 1413496800000,
-    //             "utcEnd": 1413496800000,
-    //             "progress": 50,
-    //             "step": 1,
-    //             "color": "0099C6"
-    //         },
-    //         {
-    //             "id": "90b15c99-87c4-42f1-bc4f-ad3f8d768e4c",
-    //             "name": "delivered",
-    //             "utcStart": 1413496800000,
-    //             "utcEnd": 1413496800000,
-    //             "progress": 0,
-    //             "step": 3,
-    //             "color": "316395"
-    //         },
-    //         {
-    //             "id": "9c9f7e9a-b421-4142-f4bd-8776a189bade",
-    //             "name": "dispatched",
-    //             "utcStart": 1413496800000,
-    //             "utcEnd": 1413496800000,
-    //             "progress": 0,
-    //             "step": 2,
-    //             "color": "329262"
-    //         },
-    //         {
-    //             "id": "b791ce16-c8f8-4efd-ef7f-6e8027f3e612",
-    //             "name": "Connectors Down installed",
-    //             "utcStart": 1413496800000,
-    //             "utcEnd": 1413496800000,
-    //             "progress": 0,
-    //             "step": 5,
-    //             "color": "3366CC"
-    //         },
-    //         {
-    //             "id": "c3711619-b601-4a35-882a-23a42273df07",
-    //             "name": "installed",
-    //             "utcStart": 1413496800000,
-    //             "utcEnd": 1413496800000,
-    //             "progress": 0,
-    //             "step": 4,
-    //             "color": "AAAA11"
-    //         },
-    //         {
-    //             "id": "d726e1e7-408d-463d-f77c-eccd14958511",
-    //             "name": "Slings Up installed",
-    //             "utcStart": 1413496800000,
-    //             "utcEnd": 1413496800000,
-    //             "progress": 0,
-    //             "step": 6,
-    //             "color": "AAAA11"
-    //         }
-    //     ],
-    //     "structurePath": [
-    //         "section B",
-    //         "First Floor"
-    //     ]
-    // },
-    // {
-    //     "id": "1ed4e83d-e933-40e3-fdf2-952ce8305155",
-    //     "name": "Shoemaker Shoes 2",
-    //     "code": "S 1.12",
-    //     "description": "Shop",
-    //     "utcDate": 1414101600000,
-    //     "category": "ROOM",
-    //     "activities": [
-    //         {
-    //             "id": "00c8b2d0-8ce7-4b8a-c22e-953cba215b7f",
-    //             "name": "Slings Up installed",
-    //             "utcStart": 1414101600000,
-    //             "utcEnd": 1414101600000,
-    //             "progress": 0,
-    //             "step": 6,
-    //             "color": "AAAA11"
-    //         },
-    //         {
-    //             "id": "055a6562-7973-46a6-d649-a084f79e56e2",
-    //             "name": "Connectors Up installed",
-    //             "utcStart": 1414101600000,
-    //             "utcEnd": 1414101600000,
-    //             "progress": 0,
-    //             "step": 5,
-    //             "color": "3B3EAC"
-    //         },
-    //         {
-    //             "id": "268a1347-f82e-41cf-ac2b-3d329b2d2486",
-    //             "name": "ready for assembly",
-    //             "utcStart": 1414101600000,
-    //             "utcEnd": 1414101600000,
-    //             "progress": 0,
-    //             "step": 1,
-    //             "color": "0099C6"
-    //         },
-    //         {
-    //             "id": "6f2f2b31-6d3b-4d60-d2e4-aa345d0ad2e4",
-    //             "name": "Connectors Down installed",
-    //             "utcStart": 1414101600000,
-    //             "utcEnd": 1414101600000,
-    //             "progress": 0,
-    //             "step": 5,
-    //             "color": "3366CC"
-    //         },
-    //         {
-    //             "id": "7a817087-72bd-46bc-d795-b3d6a528205d",
-    //             "name": "dispatched",
-    //             "utcStart": 1414101600000,
-    //             "utcEnd": 1414101600000,
-    //             "progress": 0,
-    //             "step": 2,
-    //             "color": "329262"
-    //         },
-    //         {
-    //             "id": "85e453bc-e488-4618-9299-b3aaf9c3d101",
-    //             "name": "Slings Down installed",
-    //             "utcStart": 1414101600000,
-    //             "utcEnd": 1414101600000,
-    //             "progress": 0,
-    //             "step": 6,
-    //             "color": "994499"
-    //         },
-    //         {
-    //             "id": "b59b649a-52b5-48a9-aa23-bbdf5325f540",
-    //             "name": "delivered",
-    //             "utcStart": 1414101600000,
-    //             "utcEnd": 1414101600000,
-    //             "progress": 0,
-    //             "step": 3,
-    //             "color": "316395"
-    //         },
-    //         {
-    //             "id": "fa9bd450-7f16-4c41-c4c7-4403730f342b",
-    //             "name": "installed",
-    //             "utcStart": 1414101600000,
-    //             "utcEnd": 1414101600000,
-    //             "progress": 0,
-    //             "step": 4,
-    //             "color": "AAAA11"
-    //         }
-    //     ],
-    //     "structurePath": [
-    //         "section C",
-    //         "First Floor"
-    //     ]
-    // },
-    // {
-    //     "id": "1f256eb2-67be-438a-8024-761ce38d4907",
-    //     "name": "FixFox",
-    //     "code": "S 0.4",
-    //     "description": "Shop",
-    //     "utcDate": 1412373600000,
-    //     "category": "ROOM",
-    //     "activities": [
-    //         {
-    //             "id": "03536e4a-8925-4e68-dccf-08bc484e44a2",
-    //             "name": "installed",
-    //             "utcStart": 1412373600000,
-    //             "utcEnd": 1412373600000,
-    //             "progress": 0,
-    //             "step": 4,
-    //             "color": "AAAA11"
-    //         },
-    //         {
-    //             "id": "48948291-2601-4018-e069-c964861af029",
-    //             "name": "dispatched",
-    //             "utcStart": 1412373600000,
-    //             "utcEnd": 1412373600000,
-    //             "progress": 0,
-    //             "step": 2,
-    //             "color": "329262"
-    //         },
-    //         {
-    //             "id": "82fea69b-d513-45fb-bc78-f0dea80ed057",
-    //             "name": "Connectors Down installed",
-    //             "utcStart": 1412373600000,
-    //             "utcEnd": 1412373600000,
-    //             "progress": 0,
-    //             "step": 5,
-    //             "color": "3366CC"
-    //         },
-    //         {
-    //             "id": "94722dc1-0281-4548-a500-1c36e66ba703",
-    //             "name": "delivered",
-    //             "utcStart": 1412373600000,
-    //             "utcEnd": 1412373600000,
-    //             "progress": 0,
-    //             "step": 3,
-    //             "color": "316395"
-    //         },
-    //         {
-    //             "id": "b3fd2e75-e74e-4648-fd32-bad318d57ab2",
-    //             "name": "ready for assembly",
-    //             "utcStart": 1412373600000,
-    //             "utcEnd": 1412373600000,
-    //             "progress": 0,
-    //             "step": 1,
-    //             "color": "0099C6"
-    //         },
-    //         {
-    //             "id": "c1b9b5c0-ccb9-4197-f2a4-48fb71857804",
-    //             "name": "Slings Down installed",
-    //             "utcStart": 1412373600000,
-    //             "utcEnd": 1412373600000,
-    //             "progress": 0,
-    //             "step": 6,
-    //             "color": "994499"
-    //         },
-    //         {
-    //             "id": "c57026fc-53b5-4613-e748-4ec1a1e53c52",
-    //             "name": "Connectors Up installed",
-    //             "utcStart": 1412373600000,
-    //             "utcEnd": 1412373600000,
-    //             "progress": 0,
-    //             "step": 5,
-    //             "color": "3B3EAC"
-    //         },
-    //         {
-    //             "id": "d03da048-579d-45da-ba82-2cd07e51c296",
-    //             "name": "Slings Up installed",
-    //             "utcStart": 1412373600000,
-    //             "utcEnd": 1412373600000,
-    //             "progress": 0,
-    //             "step": 6,
-    //             "color": "AAAA11"
-    //         }
-    //     ],
-    //     "structurePath": [
-    //         "Ground Floor",
-    //         "section B"
-    //     ]
-    // },
+    ,
+    {
+        "id": "1186b43b-1c8e-45d7-e1d8-fc8a6abe0884",
+        "name": "German Apparel 2",
+        "code": "S 1.5",
+        "description": "Shop",
+        "utcDate": 1413496800000,
+        "category": "ROOM",
+        "activities": [
+            {
+                "id": "3f279f76-fd81-4b44-b5e8-f908a9ada2ea",
+                "name": "Connectors Up installed",
+                "utcStart": 1413496800000,
+                "utcEnd": 1413496800000,
+                "progress": 0,
+                "step": 5,
+                "color": "3B3EAC"
+            },
+            {
+                "id": "83688ffd-1ca2-4cc1-e672-b1f414de9619",
+                "name": "Slings Down installed",
+                "utcStart": 1413496800000,
+                "utcEnd": 1413496800000,
+                "progress": 0,
+                "step": 6,
+                "color": "994499"
+            },
+            {
+                "id": "869d780e-27b0-4044-9e03-906e660ad962",
+                "name": "ready for assembly",
+                "utcStart": 1413496800000,
+                "utcEnd": 1413496800000,
+                "progress": 50,
+                "step": 1,
+                "color": "0099C6"
+            },
+            {
+                "id": "90b15c99-87c4-42f1-bc4f-ad3f8d768e4c",
+                "name": "delivered",
+                "utcStart": 1413496800000,
+                "utcEnd": 1413496800000,
+                "progress": 0,
+                "step": 3,
+                "color": "316395"
+            },
+            {
+                "id": "9c9f7e9a-b421-4142-f4bd-8776a189bade",
+                "name": "dispatched",
+                "utcStart": 1413496800000,
+                "utcEnd": 1413496800000,
+                "progress": 0,
+                "step": 2,
+                "color": "329262"
+            },
+            {
+                "id": "b791ce16-c8f8-4efd-ef7f-6e8027f3e612",
+                "name": "Connectors Down installed",
+                "utcStart": 1413496800000,
+                "utcEnd": 1413496800000,
+                "progress": 0,
+                "step": 5,
+                "color": "3366CC"
+            },
+            {
+                "id": "c3711619-b601-4a35-882a-23a42273df07",
+                "name": "installed",
+                "utcStart": 1413496800000,
+                "utcEnd": 1413496800000,
+                "progress": 0,
+                "step": 4,
+                "color": "AAAA11"
+            },
+            {
+                "id": "d726e1e7-408d-463d-f77c-eccd14958511",
+                "name": "Slings Up installed",
+                "utcStart": 1413496800000,
+                "utcEnd": 1413496800000,
+                "progress": 0,
+                "step": 6,
+                "color": "AAAA11"
+            }
+        ],
+        "structurePath": [
+            "section B",
+            "First Floor"
+        ]
+    },
+    {
+        "id": "1ed4e83d-e933-40e3-fdf2-952ce8305155",
+        "name": "Shoemaker Shoes 2",
+        "code": "S 1.12",
+        "description": "Shop",
+        "utcDate": 1414101600000,
+        "category": "ROOM",
+        "activities": [
+            {
+                "id": "00c8b2d0-8ce7-4b8a-c22e-953cba215b7f",
+                "name": "Slings Up installed",
+                "utcStart": 1414101600000,
+                "utcEnd": 1414101600000,
+                "progress": 0,
+                "step": 6,
+                "color": "AAAA11"
+            },
+            {
+                "id": "055a6562-7973-46a6-d649-a084f79e56e2",
+                "name": "Connectors Up installed",
+                "utcStart": 1414101600000,
+                "utcEnd": 1414101600000,
+                "progress": 0,
+                "step": 5,
+                "color": "3B3EAC"
+            },
+            {
+                "id": "268a1347-f82e-41cf-ac2b-3d329b2d2486",
+                "name": "ready for assembly",
+                "utcStart": 1414101600000,
+                "utcEnd": 1414101600000,
+                "progress": 0,
+                "step": 1,
+                "color": "0099C6"
+            },
+            {
+                "id": "6f2f2b31-6d3b-4d60-d2e4-aa345d0ad2e4",
+                "name": "Connectors Down installed",
+                "utcStart": 1414101600000,
+                "utcEnd": 1414101600000,
+                "progress": 0,
+                "step": 5,
+                "color": "3366CC"
+            },
+            {
+                "id": "7a817087-72bd-46bc-d795-b3d6a528205d",
+                "name": "dispatched",
+                "utcStart": 1414101600000,
+                "utcEnd": 1414101600000,
+                "progress": 0,
+                "step": 2,
+                "color": "329262"
+            },
+            {
+                "id": "85e453bc-e488-4618-9299-b3aaf9c3d101",
+                "name": "Slings Down installed",
+                "utcStart": 1414101600000,
+                "utcEnd": 1414101600000,
+                "progress": 0,
+                "step": 6,
+                "color": "994499"
+            },
+            {
+                "id": "b59b649a-52b5-48a9-aa23-bbdf5325f540",
+                "name": "delivered",
+                "utcStart": 1414101600000,
+                "utcEnd": 1414101600000,
+                "progress": 0,
+                "step": 3,
+                "color": "316395"
+            },
+            {
+                "id": "fa9bd450-7f16-4c41-c4c7-4403730f342b",
+                "name": "installed",
+                "utcStart": 1414101600000,
+                "utcEnd": 1414101600000,
+                "progress": 0,
+                "step": 4,
+                "color": "AAAA11"
+            }
+        ],
+        "structurePath": [
+            "section C",
+            "First Floor"
+        ]
+    },
+    {
+        "id": "1f256eb2-67be-438a-8024-761ce38d4907",
+        "name": "FixFox",
+        "code": "S 0.4",
+        "description": "Shop",
+        "utcDate": 1412373600000,
+        "category": "ROOM",
+        "activities": [
+            {
+                "id": "03536e4a-8925-4e68-dccf-08bc484e44a2",
+                "name": "installed",
+                "utcStart": 1412373600000,
+                "utcEnd": 1412373600000,
+                "progress": 0,
+                "step": 4,
+                "color": "AAAA11"
+            },
+            {
+                "id": "48948291-2601-4018-e069-c964861af029",
+                "name": "dispatched",
+                "utcStart": 1412373600000,
+                "utcEnd": 1412373600000,
+                "progress": 0,
+                "step": 2,
+                "color": "329262"
+            },
+            {
+                "id": "82fea69b-d513-45fb-bc78-f0dea80ed057",
+                "name": "Connectors Down installed",
+                "utcStart": 1412373600000,
+                "utcEnd": 1412373600000,
+                "progress": 0,
+                "step": 5,
+                "color": "3366CC"
+            },
+            {
+                "id": "94722dc1-0281-4548-a500-1c36e66ba703",
+                "name": "delivered",
+                "utcStart": 1412373600000,
+                "utcEnd": 1412373600000,
+                "progress": 0,
+                "step": 3,
+                "color": "316395"
+            },
+            {
+                "id": "b3fd2e75-e74e-4648-fd32-bad318d57ab2",
+                "name": "ready for assembly",
+                "utcStart": 1412373600000,
+                "utcEnd": 1412373600000,
+                "progress": 0,
+                "step": 1,
+                "color": "0099C6"
+            },
+            {
+                "id": "c1b9b5c0-ccb9-4197-f2a4-48fb71857804",
+                "name": "Slings Down installed",
+                "utcStart": 1412373600000,
+                "utcEnd": 1412373600000,
+                "progress": 0,
+                "step": 6,
+                "color": "994499"
+            },
+            {
+                "id": "c57026fc-53b5-4613-e748-4ec1a1e53c52",
+                "name": "Connectors Up installed",
+                "utcStart": 1412373600000,
+                "utcEnd": 1412373600000,
+                "progress": 0,
+                "step": 5,
+                "color": "3B3EAC"
+            },
+            {
+                "id": "d03da048-579d-45da-ba82-2cd07e51c296",
+                "name": "Slings Up installed",
+                "utcStart": 1412373600000,
+                "utcEnd": 1412373600000,
+                "progress": 0,
+                "step": 6,
+                "color": "AAAA11"
+            }
+        ],
+        "structurePath": [
+            "Ground Floor",
+            "section B"
+        ]
+    },
     // {
     //     "id": "214cdb4e-c5a1-4808-f365-d4495d85d020",
     //     "name": "Technical Equipment T 1.5",
