@@ -8,7 +8,7 @@ class ProcessMatrixController {
     console.log('ProcessMatrixController');
     this.filter = 'Step'
     this.searchValue = ""
-    this.status = '50'
+    this.status = ''
   }
 
   updateOrder(e) {
