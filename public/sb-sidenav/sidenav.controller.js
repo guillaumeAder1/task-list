@@ -14,6 +14,8 @@ class SidenavController {
     ]
     this.selectedFilter = 'Step';
     this.curfilter = false;
+    // string filtering
+    this.searchStr = null;
 
   }
 
@@ -21,6 +23,13 @@ class SidenavController {
   updateFilter(value) {
     this.filter = this.filters.filter(e => e.val === value.selected)[0].field
     this.callback({ selected: this.filter })
+  }
+
+
+  updateSearchStr(value) {
+    console.log(this.searchStr, value)
+    // this.filter = this.filters.filter(e => e.val === value.selected)[0].field
+    this.callbackSearch({ str: value })
   }
 
   buildToggler(componentId) {
@@ -44,7 +53,7 @@ class SidenavController {
   $onInit() {
     console.log('input bindings are defined!');
     this.toggleLeft = this.buildToggler('left');
-    this.callback({ selected: 'Step' })
+    this.callback({ selected: 'step' })
 
   }
 }

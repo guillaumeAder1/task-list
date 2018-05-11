@@ -21,9 +21,17 @@
                     <md-option ng-value="option.val" ng-repeat="option in $ctrl.filters">{{ option.val }}</md-option>
                 </md-select>
                 <br/>
+
+
+                <form>
+                    <md-input-container>
+                        <label for="testInput">Search by name</label>
+                        <input type="text" id="testInput" ng-model="searchStr" ng-change="$ctrl.updateSearchStr({str:searchStr})" md-autofocus flex>
+                    </md-input-container>
+                </form>
                 <br/>
                 <md-divider ng-if="!$last"></md-divider>
-                <md-button ng-click="$ctrl.toggleLeft()" class="md-accent">
+                <md-button ng-click="$ctrl.toggleLeft()" class="md-primary">
                     Close
                 </md-button>
             </md-content>

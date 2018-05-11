@@ -5,24 +5,25 @@
             <h3>Material Design process visualization ...</h3>
             <p>Content: 50 deliverables all having the same process with 8 steps</p>
         </div>
-        <sb-sidenav-component callback='$ctrl.updateFilter(selected)'></sb-sidenav-component>
+        <sb-sidenav-component callback='$ctrl.updateOrder(selected)' callback-search='$ctrl.updateFilter(str)'>
+        </sb-sidenav-component>
     </md-card-title>
 
     <md-card-content layout="column" layout-align="space-between">
 
-        <div layout="row" ng-repeat="deliverable in $ctrl.sbModel">
+        <div layout="row" class="addmarge" ng-repeat="deliverable in $ctrl.sbModel">
             <md-card style="height: 200px;" class="md-title" flex="15">
                 <md-card-title>
                     <md-card-title-text>
                         <span class="md-headline">{{deliverable.name}}</span>
-                        <span class="md-subhead">Large</span>
-                        <p> {{deliverable.description}} </p>
-
+                        <span class="md-subhead">{{deliverable.description}}</span>
+                        <span class="md-subhead">{{deliverable.category}}</span>
+                        <span class="md-subhead">{{deliverable.utcDate | date: "dd/MM/yy HH:mm"}}</span>
                     </md-card-title-text>
                 </md-card-title>
             </md-card>
             <div layout="row" flex="85">
-                <div flex ng-repeat="activity in deliverable.activities | orderBy : $ctrl.filter">
+                <div flex ng-repeat="activity in deliverable.activities | orderBy : $ctrl.filter | filter : $ctrl.searchValue ">
                     <sb-activity-component sb-val="activity"></sb-activity-component>
                 </div>
             </div>

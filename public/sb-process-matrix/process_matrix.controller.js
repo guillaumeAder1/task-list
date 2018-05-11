@@ -5,12 +5,16 @@ class ProcessMatrixController {
 
   constructor() {
     console.log('ProcessMatrixController');
-    this.filter = 'step'
+    this.filter = 'Step'
+    this.searchValue = ""
+  }
+
+  updateOrder(e) {
+    this.filter = e
   }
 
   updateFilter(e) {
-    console.log('update filter', e)
-    this.filter = e
+    this.searchValue = e.str
   }
   /**
    * input bindings are ready
