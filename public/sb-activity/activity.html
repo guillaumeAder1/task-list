@@ -14,12 +14,26 @@
 
 
         <md-card-actions layout="row" layout-align="end center">
-            <!-- <md-slider-container flex="100" ng-disabled="isDisabled">
-                <md-input-container>
-                    <input flex type="number" ng-model="disabled1" aria-label="green" aria-controls="green-slider">
-                </md-input-container>
-            </md-slider-container> -->
-            <md-button flex='100'>Action 1</md-button>
+            <!-- <md-card-title-text>
+                <span class="md-body-2">{{$ctrl.sbVal.utcStart | date: "dd/MM/yy HH:mm"}}</span>
+                <md-divider ng-if="!$last"></md-divider>
+                <span class="md-body-2">{{$ctrl.sbVal.utcEnd | date: "dd/MM/yy HH:mm"}}</span>
+            </md-card-title-text> -->
+            <!-- <md-button flex='100'>Action 1</md-button> -->
+            <md-button flex aria-label="Refresh">
+                Dates
+                <md-tooltip md-direction="left">
+                    Start: {{$ctrl.sbVal.utcStart | date: "dd/MM/yy HH:mm"}} End: {{$ctrl.sbVal.utcEnd | date: "dd/MM/yy HH:mm"}}
+                </md-tooltip>
+            </md-button>
+            <md-button flex aria-label="Refresh">
+                Info
+                <md-tooltip md-direction="right">
+                    #ID {{$ctrl.sbVal.id}}
+                </md-tooltip>
+            </md-button>
+
+
         </md-card-actions>
     </md-card>
 </div>

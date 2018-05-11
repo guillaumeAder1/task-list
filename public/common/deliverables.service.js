@@ -47,7 +47,7 @@ var dummyData = [
                 "id": "37a93933-9e50-4c43-fef9-c615c98799bb",
                 "name": "Slings Up installed",
                 "utcStart": 1414364400000,
-                "utcEnd": 1414364400000,
+                "utcEnd": 1414364500000,
                 "progress": 0,
                 "step": 6,
                 "color": "AAAA11"
@@ -56,7 +56,7 @@ var dummyData = [
                 "id": "3dba19cb-d5a3-4e54-b900-7315331aceb6",
                 "name": "Connectors Up installed",
                 "utcStart": 1414364400000,
-                "utcEnd": 1414364400000,
+                "utcEnd": 1414364500000,
                 "progress": 50,
                 "step": 5,
                 "color": "3B3EAC"
@@ -65,7 +65,7 @@ var dummyData = [
                 "id": "57bd2908-5062-4bd2-d588-7e920b4336cd",
                 "name": "installed",
                 "utcStart": 1414364400000,
-                "utcEnd": 1414364400000,
+                "utcEnd": 1414364600000,
                 "progress": 50,
                 "step": 4,
                 "color": "AAAA11"
@@ -74,7 +74,7 @@ var dummyData = [
                 "id": "5c489edc-4351-4bec-e3b1-bfc9b62048a3",
                 "name": "Connectors Down installed",
                 "utcStart": 1414364400000,
-                "utcEnd": 1414364400000,
+                "utcEnd": 1414364700000,
                 "progress": 0,
                 "step": 5,
                 "color": "3366CC"
@@ -83,7 +83,7 @@ var dummyData = [
                 "id": "5e636b09-091f-4fda-fb0b-c489c8c37da1",
                 "name": "dispatched",
                 "utcStart": 1414364400000,
-                "utcEnd": 1414364400000,
+                "utcEnd": 1414364300000,
                 "progress": 100,
                 "step": 2,
                 "color": "329262"
@@ -92,7 +92,7 @@ var dummyData = [
                 "id": "706e798a-0b4c-4721-cf7f-c05e597d6fde",
                 "name": "Slings Down installed",
                 "utcStart": 1414364400000,
-                "utcEnd": 1414364400000,
+                "utcEnd": 1414364800000,
                 "progress": 0,
                 "step": 6,
                 "color": "994499"
@@ -101,7 +101,7 @@ var dummyData = [
                 "id": "94b220ef-22ec-4a64-c9ee-23373d24659a",
                 "name": "ready for assembly",
                 "utcStart": 1414364400000,
-                "utcEnd": 1414364400000,
+                "utcEnd": 1414364700000,
                 "progress": 100,
                 "step": 1,
                 "color": "0099C6"
@@ -110,7 +110,7 @@ var dummyData = [
                 "id": "d18da1f2-ef97-4ad6-d000-3fbf04d6f4fa",
                 "name": "delivered",
                 "utcStart": 1414364400000,
-                "utcEnd": 1414364400000,
+                "utcEnd": 1414364450000,
                 "progress": 100,
                 "step": 3,
                 "color": "316395"

@@ -12,14 +12,15 @@ class SidenavController {
       { val: 'Date End', field: 'utcEnd' },
       { val: 'Date Start', field: 'utcStart' }
     ]
-    this.selectedFilter = false
+    this.selectedFilter = 'Step';
+    this.curfilter = false;
 
   }
 
 
   updateFilter(value) {
-    console.log('update filter...', value)
-    this.callback(this.filters.filter(e => e.val === value)[0].field)
+    this.filter = this.filters.filter(e => e.val === value.selected)[0].field
+    this.callback({ selected: this.filter })
   }
 
   buildToggler(componentId) {
@@ -43,6 +44,7 @@ class SidenavController {
   $onInit() {
     console.log('input bindings are defined!');
     this.toggleLeft = this.buildToggler('left');
+    this.callback({ selected: 'Step' })
 
   }
 }

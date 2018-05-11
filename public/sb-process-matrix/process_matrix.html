@@ -5,7 +5,7 @@
             <h3>Material Design process visualization ...</h3>
             <p>Content: 50 deliverables all having the same process with 8 steps</p>
         </div>
-        <sb-sidenav-component callback='$ctrl.updateFilter(val)'></sb-sidenav-component>
+        <sb-sidenav-component callback='$ctrl.updateFilter(selected)'></sb-sidenav-component>
     </md-card-title>
 
     <md-card-content layout="column" layout-align="space-between">
@@ -22,7 +22,7 @@
                 </md-card-title>
             </md-card>
             <div layout="row" flex="85">
-                <div flex ng-repeat="activity in deliverable.activities | orderBy : 'step'">
+                <div flex ng-repeat="activity in deliverable.activities | orderBy : $ctrl.filter">
                     <sb-activity-component sb-val="activity"></sb-activity-component>
                 </div>
             </div>

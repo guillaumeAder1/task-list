@@ -14,12 +14,14 @@
 
             <md-content layout-margin>
                 <p>
-                    Change the Task ordering settings
+                    Change the task ordering settings
                 </p>
 
-                <md-select ng-model="selectedFilter" ng-change="$ctrl.updateFilter(this.selectedFilter)">
+                <md-select ng-model="selectedFilter" ng-change="$ctrl.updateFilter({selected:this.selectedFilter})">
                     <md-option ng-value="option.val" ng-repeat="option in $ctrl.filters">{{ option.val }}</md-option>
                 </md-select>
+                <br/>
+                <br/>
                 <md-divider ng-if="!$last"></md-divider>
                 <md-button ng-click="$ctrl.toggleLeft()" class="md-accent">
                     Close

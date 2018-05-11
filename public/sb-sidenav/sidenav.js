@@ -4,7 +4,7 @@ import { SidenavController } from './sidenav.controller.js'
 
 const bindings = {
   filter: '<',
-  callback: '<'
+  callback: '&'
 };
 
 export const sidenavComponent = {
