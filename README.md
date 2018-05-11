@@ -1,5 +1,8 @@
 ## A visual representation for deliverables in a matrix
-A deliverable is basically a set of tasks which are required to be finished/done in order to "deliver" the deliverable/thing. The naming is derived from the sablono project platform. Synonyms for deliverable are:
+
+
+
+[Live demo](https://guillaumeader1.github.io/task-list/public/)
 
 ## Install
 Install dependencies via npm
